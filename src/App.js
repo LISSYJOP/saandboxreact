@@ -10,7 +10,7 @@ function App() {
         </p>
       </header>
       <main>
-        <p>@hftamayo</p>
+        <p>@adrielalisbeth</p>
       </main>
     </div>
   );

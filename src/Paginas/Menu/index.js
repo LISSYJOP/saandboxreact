@@ -4,8 +4,9 @@ import { Link } from 'react-router-dom';
 function Menu(){
     return(
         <div>
-            <ul>
+            <ul id="menu">
                 <li>
+                    
                     <Link to="/basicos">01 Basicos</Link>
                     {/*jsx, componentes, props, state, 
                     eventos y metodos, components naming,
