@@ -56,7 +56,14 @@ align-content: center;
 #menu li a:hover {
   color:  #e0ca03 ;
 }
+#submenu li a { 
 
+  color:   #f8d300e1  ;
+  text-decoration-style:double;
+}
+#submenu li a:hover {
+  color:  #fc065c;
+}
 .App-link {
   color: #61dafb;
 }
@@ -69,3 +76,4 @@ align-content: center;
     transform: rotate(360deg);
   }
 }
+
