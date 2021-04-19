@@ -68,6 +68,27 @@ align-content: center;
   color: #61dafb;
 }
 
+.texto{
+  color: rgb(121, 105, 11);
+}
+
+.cliente1{
+  color: #474463;
+ 
+}
+.cliente2{
+  color:rgb(12, 104, 107);
+}
+
+
+.clientev3{
+  color:rgb(78, 48, 48);
+  text-decoration-line:underline
+}
+
+
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

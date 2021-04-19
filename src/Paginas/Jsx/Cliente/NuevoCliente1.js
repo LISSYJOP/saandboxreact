@@ -8,7 +8,7 @@ const nuevocliente1 = () => { /* esto es un arrow function */
     utilizando el modificador const o el modificador let, en este caso normalmente const = constante
     complementara nuestra funcion nuevo cliente 1  */
 
-    return <p>Mi nombre es Joseph Hernández y soy un cliente</p>;
+    return <p class="cliente1">Mi nombre es Joseph Hernández y soy un cliente</p>;
 
 }
 /* este es nuestro primer control o componentefuncional   */

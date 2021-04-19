@@ -5,7 +5,7 @@ en java usamos parametros para trabajar con funciones getters y setters
 un props puede tener cualquier tipo de datos */
 
 const nuevoclientev3 = (props) => {
-    return <p>
+    return <p class="clientev3">
         Mi nombre es {props.nombre}, soy un cliente
         y tengo {props.edad} años de edad.
     </p>

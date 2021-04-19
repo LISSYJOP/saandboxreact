@@ -6,7 +6,7 @@ importar una libreria math utilizando una sintaxis especifica se espera tener un
 del manejo del DOM  */
 
 const nuevocliente2 = () => {
-    return <p>Mi nombre es Bruce Wayne, Soy un cliente y tengo {Math.floor(Math.random()*30)} años de edad</p>
+    return <p class="cliente2">Mi nombre es Bruce Wayne, Soy un cliente y tengo {Math.floor(Math.random()*30)} años de edad</p>
 }
 
 export default nuevocliente2;
