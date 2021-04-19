@@ -5,6 +5,8 @@ import React, {Component} from 'react';
 import NuevoCliente1 from './NuevoCliente1';
 import NuevoCliente2 from './NuevoCliente2';
 import NuevoCliente3 from './NuevoCliente3';
+import NuevoCliente4a from './NuevoCliente4a';
+import NuevoCliente4b from './NuevoCliente4b';
 
 
 class verclientes1 extends Component{
@@ -18,6 +20,8 @@ class verclientes1 extends Component{
                <NuevoCliente1/>
                <NuevoCliente2/>
                <NuevoCliente3 nombre='Luke SkyWalker' edad='25'/>
+               <NuevoCliente4a nombre='Sofia Hernández' edad='17'/>
+               <NuevoCliente4b nombre='Katherin Bonilla' edad='30'/>
            </div> 
         )
 

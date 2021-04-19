@@ -86,8 +86,13 @@ align-content: center;
   text-decoration-line:underline
 }
 
+.Ca{
+  color: #0b9412;
+}
 
-
+.Cb{
+  color: #640880;
+}
 
 @keyframes App-logo-spin {
   from {
