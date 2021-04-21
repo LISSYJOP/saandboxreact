@@ -18,7 +18,7 @@
 
 .App-header {
   background-color: #0b010e;
-  min-height: 50vh;
+  min-height: 10vh;
   display: flex;
   flex-direction:column;
   align-items:center;
@@ -48,6 +48,8 @@ li {
  padding:10px 15px;
 align-content: center;
 }
+
+
 
 #menu li a { 
 
@@ -92,6 +94,39 @@ align-content: center;
 
 .Cb{
   color: #640880;
+}
+
+.UNO{
+  color: #640880;
+}
+
+.DOS{
+  color: gray;
+}
+
+.txt{
+  color: #0b010e;
+}
+
+.hijos{
+  color: #0b010e;
+}
+.total{
+  color: #640880;
+}
+.hijos2{
+  color: gray;
+}
+
+.states{
+  color: #9b8d0f;
+}
+
+.jeep{
+  color: #06796f;
+}
+.nombre{
+  color: #7a6479;
 }
 
 @keyframes App-logo-spin {

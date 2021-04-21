@@ -7,8 +7,12 @@ import NuevoCliente2 from './NuevoCliente2';
 import NuevoCliente3 from './NuevoCliente3';
 import NuevoCliente4a from './NuevoCliente4a';
 import NuevoCliente4b from './NuevoCliente4b';
+import VerEjemplos from '../../props/VerEjemplos';
+import Props from '../../props/Props';
+import EjemploE1 from '../../states/EjemploE1';
+import EjemploE2 from '../../states/EjemploE2';
 
-
+ 
 class verclientes1 extends Component{
     /*  Algo muy importante, es que en los 
     componentes basados en clases es quesiempre tienen la funcion render
@@ -16,12 +20,18 @@ class verclientes1 extends Component{
     render(){
         return(
            <div>
-               <p class="texto">Uso de class based components</p>
-               <NuevoCliente1/>
-               <NuevoCliente2/>
-               <NuevoCliente3 nombre='Luke SkyWalker' edad='25'/>
-               <NuevoCliente4a nombre='Sofia Hernández' edad='17'/>
-               <NuevoCliente4b nombre='Katherin Bonilla' edad='30'/>
+               <p class="texto"></p>
+               {/*<NuevoCliente1/>*/}
+               {/*<NuevoCliente2/>*/}
+               {/*<NuevoCliente3 nombre='Luke SkyWalker' edad='25'/>*/}
+               {/*<NuevoCliente4a nombre='Sofia Hernández' edad='17'/>*/}
+               {/*<NuevoCliente4b nombre='Katherin Bonilla' edad='30'/>*/}
+               {/*<VerEjemplos/>*/}
+               <Props/>
+               <EjemploE1/>
+               <EjemploE2/>
+
+             
            </div> 
         )
 
