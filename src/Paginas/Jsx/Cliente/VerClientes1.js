@@ -11,7 +11,10 @@ import VerEjemplos from '../../props/VerEjemplos';
 import Props from '../../props/Props';
 import EjemploE1 from '../../states/EjemploE1';
 import EjemploE2 from '../../states/EjemploE2';
-
+import Suma from '../../OPERACIONES/Suma';
+import Resta from '../../OPERACIONES/Resta'
+import Multiplicacion from '../../OPERACIONES/Multiplicacion';
+import Division from '../../OPERACIONES/Division';
  
 class verclientes1 extends Component{
     /*  Algo muy importante, es que en los 
@@ -30,6 +33,10 @@ class verclientes1 extends Component{
                <Props/>
                <EjemploE1/>
                <EjemploE2/>
+               <Suma/>
+               <Resta/>
+               <Multiplicacion/>
+               <Division/>
 
              
            </div> 
