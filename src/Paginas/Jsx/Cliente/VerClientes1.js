@@ -15,6 +15,7 @@ import Suma from '../../OPERACIONES/Suma';
 import Resta from '../../OPERACIONES/Resta'
 import Multiplicacion from '../../OPERACIONES/Multiplicacion';
 import Division from '../../OPERACIONES/Division';
+import VerClientes2 from '../Cliente/VerClientes2';
  
 class verclientes1 extends Component{
     /*  Algo muy importante, es que en los 
@@ -30,13 +31,14 @@ class verclientes1 extends Component{
                {/*<NuevoCliente4a nombre='Sofia Hernández' edad='17'/>*/}
                {/*<NuevoCliente4b nombre='Katherin Bonilla' edad='30'/>*/}
                {/*<VerEjemplos/>*/}
-               <Props/>
-               <EjemploE1/>
-               <EjemploE2/>
-               <Suma/>
-               <Resta/>
-               <Multiplicacion/>
-               <Division/>
+               {/*<Props/>*/}
+               {/*<EjemploE1/>*/}
+               {/*<EjemploE2/>*/}
+               {/*<Suma/>*/}
+               {/*<Resta/>*/}
+               {/*<Multiplicacion/>*/}
+               {/*<Division/>*/}
+               <VerClientes2/>
 
              
            </div> 
